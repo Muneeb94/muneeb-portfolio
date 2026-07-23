@@ -154,7 +154,7 @@ export const experience: Role[] = [
   },
 ];
 
-export type Work = { tag: string; title: string; desc: string; stack: string[] };
+export type Work = { tag: string; title: string; desc: string; stack: string[]; web?: string; playStore?: string };
 export const work: Work[] = [
   {
     tag: "Android · HRM",
@@ -163,28 +163,41 @@ export const work: Work[] = [
     stack: ["Kotlin", "Coroutines", "CameraX", "ML Kit", "Biometric"],
   },
   {
-    tag: "Android · Commerce",
+    tag: "Android · E-Commerce",
     title: "QavaShop",
     desc: "Bilingual e-commerce app featuring a Buy-Now-Pay-Later split-payment flow, biometric + Google Sign-In, and Play Core in-app updates with crash-hardened startup.",
     stack: ["Kotlin", "BNPL", "Play Core", "Crashlytics", "AR / EN"],
+    playStore: "https://play.google.com/store/apps/details?id=com.bv.qavashop&hl=en",
+    web: "https://qavashop.com/en/",
   },
   {
     tag: "Android · Field Service",
     title: "SphereY Pro",
     desc: "Technician app with end-to-end video capture-preview-upload for service reports, brought into compliance with Android's 16 KB memory-page requirement.",
     stack: ["Kotlin", "Gradle / AGP", "Media", "Play Core"],
+    playStore: "https://play.google.com/store/apps/details?id=com.sphere.raqtan&hl=en",
+    web: "https://spherey.com/en/",
   },
   {
-    tag: "Web · Commerce",
+    tag: "Web · E-Commerce",
     title: "Ekuep",
     desc: "Large-scale bilingual e-commerce platform and admin panel — led seasonal-campaign frontends and integrated loyalty, cart, quotation and checkout with backend APIs.",
     stack: ["JavaScript", "jQuery", "SCSS", "Laravel Blade"],
+    web: "https://www.ekuep.com/en",
   },
   {
     tag: "Web · React",
     title: "Auto Quote",
     desc: "AI-powered RFQ-to-quotation automation. Built reusable React components, data tables and stepper workflows plus password auth flows with validation.",
     stack: ["React", "Hooks", "REST", "Forms"],
+    web: "https://quote.raqtan.com/",
+  },
+  {
+    tag: "Web · E-Commerce",
+    title: "COFE Market",
+    desc: "Bilingual coffee-marketplace storefront — product browsing, wishlist, cart and checkout in a fast, mobile-first e-commerce experience for coffee lovers.",
+    stack: ["React", "JavaScript", "Responsive", "REST"],
+    web: "https://cofemarket.com/",
   },
 ];
 
