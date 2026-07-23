@@ -7,7 +7,7 @@ export const profile = {
   email: "s.muneeb96@gmail.com",
   phones: ["+92 336 2520190", "+92 321 2855136"],
   phoneTel: ["+923362520190", "+923212855136"],
-  linkedin: "https://linkedin.com/in/syed-muneeb-ur-rehman",
+  linkedin: "https://linkedin.com/in/syed-muneeb-rehman",
   whatsapp:
     "https://wa.me/923362520190?text=Hi%20Muneeb%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect.",
   resume: "/Muneeb-SoftwareEngineer.pdf",
