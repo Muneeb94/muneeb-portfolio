@@ -196,7 +196,7 @@ export const work: Work[] = [
     tag: "Web · E-Commerce",
     title: "COFE Market",
     desc: "Built the frontend for this coffee-marketplace storefront — product browsing, wishlist, cart and checkout in a responsive, mobile-first e-commerce experience.",
-    stack: ["React", "JavaScript", "Responsive", "REST"],
+    stack: ["Next.js", "React", "Responsive", "REST"],
     web: "https://cofemarket.com/",
   },
 ];
